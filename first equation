@@ -1,0 +1,16 @@
+#include <stdio.h>
+#define _USE_MATH_DEFINES
+#include <math.h>
+//first option
+//first equation
+int main() {
+    float alpha;
+    scanf("%f", &alpha);
+    float zet;
+    // printf("%.25f\n", M_PI);
+    double a1 = pow((sin((3 * M_PI) - (2 * alpha))), 2);
+    double a2 = pow((cos((5 * M_PI) + (2 * alpha))), 2);
+    zet = 2 * a1 * a2;
+    printf("%f", zet);
+    return 0;
+}
